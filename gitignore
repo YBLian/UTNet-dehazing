@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- Experiment outputs (do NOT commit) ----
+runs/
+results/
+logs/
+*.log
+
+# ---- Datasets (download separately, see README) ----
+data/
+datasets/
+
+# ---- Model weights (release via GitHub Release / Zenodo, see README) ----
+*.pth
+*.pkl
+*.pk
+*.ckpt
+*.pt
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

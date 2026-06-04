@@ -1,0 +1,20 @@
+# UTNet-dehazing — Python dependencies
+# Tested environment: Python 3.10, PyTorch 2.9.0, CUDA 12.8
+#
+# Install PyTorch matching your CUDA from https://pytorch.org first, e.g.:
+#   pip install torch==2.9.0 torchvision --index-url https://download.pytorch.org/whl/cu128
+# then:
+#   pip install -r requirements.txt
+
+torch==2.9.0
+torchvision
+numpy
+pillow
+scikit-image
+opencv-python
+matplotlib
+einops
+timm
+thop
+tqdm
+pyyaml
